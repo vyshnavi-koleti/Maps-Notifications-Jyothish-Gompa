@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CC31B4D32AD8D21C001D3647 /* Maps_Notifications_Jyothish_GompaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC31B4D22AD8D21C001D3647 /* Maps_Notifications_Jyothish_GompaApp.swift */; };
-		CC31B4D52AD8D21C001D3647 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC31B4D42AD8D21C001D3647 /* ContentView.swift */; };
 		CC31B4D72AD8D21D001D3647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC31B4D62AD8D21D001D3647 /* Assets.xcassets */; };
 		CC31B4DA2AD8D21D001D3647 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC31B4D92AD8D21D001D3647 /* Preview Assets.xcassets */; };
 		CC31B4E42AD8D21D001D3647 /* Maps_Notifications_Jyothish_GompaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC31B4E32AD8D21D001D3647 /* Maps_Notifications_Jyothish_GompaTests.swift */; };
 		CC31B4EE2AD8D21D001D3647 /* Maps_Notifications_Jyothish_GompaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC31B4ED2AD8D21D001D3647 /* Maps_Notifications_Jyothish_GompaUITests.swift */; };
 		CC31B4F02AD8D21D001D3647 /* Maps_Notifications_Jyothish_GompaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC31B4EF2AD8D21D001D3647 /* Maps_Notifications_Jyothish_GompaUITestsLaunchTests.swift */; };
+		CC31B5072AD90B9D001D3647 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC31B5062AD90B9D001D3647 /* ContentView.swift */; };
+		CC31B5092AD91794001D3647 /* DreamSchoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC31B5082AD91794001D3647 /* DreamSchoolView.swift */; };
+		CC31B50B2AD91834001D3647 /* PushNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC31B50A2AD91834001D3647 /* PushNotificationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		CC31B4CF2AD8D21C001D3647 /* Maps Notifications Jyothish Gompa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maps Notifications Jyothish Gompa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC31B4D22AD8D21C001D3647 /* Maps_Notifications_Jyothish_GompaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maps_Notifications_Jyothish_GompaApp.swift; sourceTree = "<group>"; };
-		CC31B4D42AD8D21C001D3647 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CC31B4D62AD8D21D001D3647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC31B4D92AD8D21D001D3647 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC31B4DF2AD8D21D001D3647 /* Maps Notifications Jyothish GompaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maps Notifications Jyothish GompaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,9 @@
 		CC31B4E92AD8D21D001D3647 /* Maps Notifications Jyothish GompaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maps Notifications Jyothish GompaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC31B4ED2AD8D21D001D3647 /* Maps_Notifications_Jyothish_GompaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maps_Notifications_Jyothish_GompaUITests.swift; sourceTree = "<group>"; };
 		CC31B4EF2AD8D21D001D3647 /* Maps_Notifications_Jyothish_GompaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maps_Notifications_Jyothish_GompaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC31B5062AD90B9D001D3647 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC31B5082AD91794001D3647 /* DreamSchoolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamSchoolView.swift; sourceTree = "<group>"; };
+		CC31B50A2AD91834001D3647 /* PushNotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		CC31B4C62AD8D21C001D3647 = {
 			isa = PBXGroup;
 			children = (
+				CC31B4D22AD8D21C001D3647 /* Maps_Notifications_Jyothish_GompaApp.swift */,
 				CC31B4D12AD8D21C001D3647 /* Maps Notifications Jyothish Gompa */,
 				CC31B4E22AD8D21D001D3647 /* Maps Notifications Jyothish GompaTests */,
 				CC31B4EC2AD8D21D001D3647 /* Maps Notifications Jyothish GompaUITests */,
@@ -94,8 +99,9 @@
 		CC31B4D12AD8D21C001D3647 /* Maps Notifications Jyothish Gompa */ = {
 			isa = PBXGroup;
 			children = (
-				CC31B4D22AD8D21C001D3647 /* Maps_Notifications_Jyothish_GompaApp.swift */,
-				CC31B4D42AD8D21C001D3647 /* ContentView.swift */,
+				CC31B5062AD90B9D001D3647 /* ContentView.swift */,
+				CC31B5082AD91794001D3647 /* DreamSchoolView.swift */,
+				CC31B50A2AD91834001D3647 /* PushNotificationService.swift */,
 				CC31B4D62AD8D21D001D3647 /* Assets.xcassets */,
 				CC31B4D82AD8D21D001D3647 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC31B4D52AD8D21C001D3647 /* ContentView.swift in Sources */,
+				CC31B50B2AD91834001D3647 /* PushNotificationService.swift in Sources */,
+				CC31B5092AD91794001D3647 /* DreamSchoolView.swift in Sources */,
+				CC31B5072AD90B9D001D3647 /* ContentView.swift in Sources */,
 				CC31B4D32AD8D21C001D3647 /* Maps_Notifications_Jyothish_GompaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
